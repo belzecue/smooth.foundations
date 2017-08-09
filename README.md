@@ -13,3 +13,14 @@ Smooth.Foundations includes:
 - A disposal API for performing cleanup operations in a background thread during the rendering phase.
 - Methods for determining basic information about the runtime platform.
 - Other miscellaneous utilities.
+
+
+To include Smooth.Foundations into your project, you can use `npm` method of unity package management described [here](https://github.com/minhhh/UBootstrap).
+
+## Changelog
+
+**0.0.1**
+
+* Initial commit
+
+<br/>
