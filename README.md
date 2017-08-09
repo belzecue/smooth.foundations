@@ -19,6 +19,10 @@ To include Smooth.Foundations into your project, you can use `npm` method of uni
 
 ## Changelog
 
+**0.0.2**
+
+* Fix compile error on Android
+
 **0.0.1**
 
 * Initial commit

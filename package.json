@@ -1,6 +1,6 @@
 {
   "name": "Smooth.Foundations",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Foundations for boosting productiviy and writing clean, maintainable, allocation-free code in C# / Unity.",
   "main": "index.js",
   "files": [

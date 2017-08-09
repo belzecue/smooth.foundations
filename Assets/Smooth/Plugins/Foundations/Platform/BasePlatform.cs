@@ -64,8 +64,6 @@ namespace Smooth.Platform {
 			case RuntimePlatform.MetroPlayerX64:
 			case RuntimePlatform.MetroPlayerARM:
 				return BasePlatform.Metro;
-			case RuntimePlatform.BB10Player:
-				return BasePlatform.Bb10;
 			case RuntimePlatform.TizenPlayer:
 				return BasePlatform.Tizen;
 #endif
