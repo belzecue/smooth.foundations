@@ -40,29 +40,16 @@ namespace Smooth.Platform {
 				return BasePlatform.Android;
 			case RuntimePlatform.WindowsEditor:
 			case RuntimePlatform.WindowsPlayer:
-			case RuntimePlatform.WindowsWebPlayer:
 				return BasePlatform.Windows;
 			case RuntimePlatform.OSXEditor:
 			case RuntimePlatform.OSXPlayer:
-			case RuntimePlatform.OSXWebPlayer:
-			case RuntimePlatform.OSXDashboardPlayer:
 				return BasePlatform.Osx;
 			case RuntimePlatform.LinuxPlayer:
 				return BasePlatform.Linux;
-			case RuntimePlatform.XBOX360:
-				return BasePlatform.Xbox360;
-			case RuntimePlatform.PS3:
-				return BasePlatform.Ps3;
-			case RuntimePlatform.FlashPlayer:
-				return BasePlatform.Flash;
-			case RuntimePlatform.NaCl:
-				return BasePlatform.NaCl;
 #if !UNITY_3_5 && !UNITY_4_0 && !UNITY_4_1
-			case RuntimePlatform.WP8Player:
-				return BasePlatform.Wp8;
-			case RuntimePlatform.MetroPlayerX86:
-			case RuntimePlatform.MetroPlayerX64:
-			case RuntimePlatform.MetroPlayerARM:
+            case RuntimePlatform.WSAPlayerX86:
+            case RuntimePlatform.WSAPlayerX64:
+            case RuntimePlatform.WSAPlayerARM:
 				return BasePlatform.Metro;
 			case RuntimePlatform.TizenPlayer:
 				return BasePlatform.Tizen;
@@ -77,9 +64,7 @@ namespace Smooth.Platform {
 		/// </summary>
 		public static bool HasJit(this RuntimePlatform runtimePlatform) {
 			return (
-				runtimePlatform != RuntimePlatform.IPhonePlayer &&
-				runtimePlatform != RuntimePlatform.PS3 &&
-				runtimePlatform != RuntimePlatform.XBOX360);
+				runtimePlatform != RuntimePlatform.IPhonePlayer);
 		}
 
 		/// <summary>
